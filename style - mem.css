@@ -1,0 +1,91 @@
+#game div {
+	width: 15%;
+	height: 150px;
+	margin: 10px;
+	display: inline-block;
+	position: relative;
+	align-items: center;
+}
+
+.buttonhide {
+	display: none;
+}
+
+html {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+}
+
+p {
+	font-size: 25px;
+	text-align: center;
+}
+
+#current-score {
+	font-size: 30px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: center;
+}
+body {
+	background-image: url('https://wallpapercave.com/wp/vgnwpGb.jpg');
+	background-size: cover;
+	background-position: center, center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.mysteryCard {
+	background-image: url('http://2.bp.blogspot.com/-xRvYVWgqDjQ/UcG6n4o1tsI/AAAAAAAAEBk/rtrRRvAwdtc/s1600/NewSuperMarioBros-Box.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.mysteryCard:hover {
+	cursor: pointer;
+}
+
+.redcharacter {
+	background-image: url('https://ubistatic19-a.akamaihd.net/ubicomstatic/en-GB/global/game-info/Mario_150_289388.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.greencharacter {
+	background-image: url('https://www.mariowiki.com/images/5/51/MK8_Luigi_Icon.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.purplecharacter {
+	background-image: url('https://pngriver.com/wp-content/uploads/2018/04/Download-Yoshi-PNG-Image-768x1118.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.bluecharacter {
+	background-image: url('http://vignette1.wikia.nocookie.net/nintendo/images/7/77/Princess_Peach_NSMBW.png/revision/latest?cb=20120107141833&path-prefix=en');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+.orangecharacter {
+	background-image: url('http://microsite.nintendo-europe.com/nintendokidsclub/assets/img/content/read_and_discover/mushroom_kingdom/character-bowser.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
